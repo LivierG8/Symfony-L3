@@ -38,7 +38,7 @@ Ce TP consiste à ajouter à l'espace d'administration les fonctionnalités stan
 
 L'administrateur doit avoir accès à la liste des utilisateurs via sa barre de navigation.
 
-![Admin Toolbar](imgs/admin_toolbar.PNG)
+![Admin Toolbar](imgs/admin_toolbar.png)
     
 ___
 
