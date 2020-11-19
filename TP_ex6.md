@@ -28,7 +28,7 @@ Ce TP consiste à ajouter à l'espace d'administration les fonctionnalités stan
 * Reprendre les fonctions `index` et `edit` du `UserController` pour les intégrer au `AdminController`. 
 
 * **Attention, l'administrateur ne peut pas créer un utilisateur**, seul le formulaire d'inscription permet de créer un utilisateur.
-* L'administrateur ne doit pouvoir modifier que le rôle des utilisateur, et bloquer/débloquer leur compte
+* L'administrateur ne doit pouvoir modifier que le rôle des utilisateurs, et bloquer/débloquer leur compte
 
 > Le mieux est donc de créer un nouveau formulaire pour l'entité `User`. 
 
