@@ -19,11 +19,11 @@ Tel que présenté dans le cahier des charges, les utilisateurs doivent renseign
 * **Civilité**
 * **Date de naissance** (qui donne l'age)
 * **Email**
-* __Téléphone__
-* __Ville__
-* __Code Postal__
-* __Pays__
-* __Numéro de sécu__
+* _Téléphone_
+* _Ville_
+* _Code Postal_
+* _Pays_
+* _Numéro de sécu_
 
 
 > Pour faire cela, utiliser la commande `php bin/console make:entity`.
