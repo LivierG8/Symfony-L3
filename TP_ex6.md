@@ -83,7 +83,7 @@ Cette propriété doit être de type `boolean`.
 
 #### Modifier la création d'un utilisateur
 
-Étant donné que nous venons d'ajouter un nouvelle propriété à l'entité `User`, qui doit pas défaut valoir `false`, nous devons modifier la création de l'utilisateur.
+Étant donné que nous venons d'ajouter un nouvelle propriété à l'entité `User`, qui doit valoir par défaut `false`, nous devons modifier la création de l'utilisateur.
 
 Pour cela, il faut modifier la fonction native `__construct` de l'entité `User` : 
 
