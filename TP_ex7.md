@@ -113,8 +113,18 @@ class AgentController extends AbstractController
 
 Modifier le fichier `config/packages/security.yml` : 
 ```
+    role_hierarchy:
+        ROLE_ADMIN: ROLE_AGENT, ROLE_USER
+        ROLE_AGENT: ROLE_USER
+        
     access_control:
         - { path: ^/admin, roles: ROLE_ADMIN }
         - { path: ^/mon-espace-agent, roles: ROLE_AGENT }
         - { path: ^/mon-espace-client, roles: ROLE_USER }
 ```
+
+### Tests 
+
+Faites les tests suivants pour vérifier que tout est sécurisé :
+* Modifiez les utilisateurs de manière à avoir 1 administrateur, 1 agent, et 1 client
+* Tentez de vous connecter à des espaces interdits, par exemple : se connecter à l'espace agent, avec un compte client / ou de vous connecter à l'espace admin avec un compte agent
