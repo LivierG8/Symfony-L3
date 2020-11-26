@@ -51,6 +51,16 @@ L'entité `Souscription` doit avoir la propriété suivante :
 
 ## Souscrire à une offre
 
+#### Liste des souscriptions d'un utilisateur
+
+Pour le moment vous n'avez pas encore créé de souscription, mais nous allons tout de même préparer le page de l'espace client qui viendra lister les souscription à des offres.
+
+Pour cela il vous faudra (dans `UserController` de préférence) :
+* Créer une nouvelle route, exemple `@Route("/mes-souscriptions", name="user_souscriptions")` associée à une fonction
+* Récupérer l'utilisateur connecté `$user = $this->getUser();`
+* Récupérer les souscriptions de l'utilisateur : `$user->getSouscriptions();`
+* Retourner un template TWIG avec les souscriptions en paramètre.
+
 #### CRUD de l'entité `Offer`
 
 Avant de mettre en place la souscription à une offre, vous aurez besoin de :
