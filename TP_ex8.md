@@ -98,6 +98,8 @@ Tel que présenté dans le cahier des charges, les utilisateurs doivent renseign
     ])
 ```
 
+> Sur ce point vous êtes tout à fait libre de créer un nouveau formulaire, rien que pour ces champs. Mais il vous faudra par la suite penser à rediriger l'utilisateur vers ce nouveau formulaire lors du processus de souscription.
+
 ___
 #### Points bonus
 
@@ -113,8 +115,6 @@ Les propriétés _Téléphone_ _Code postal_ et _Numéro de sécurité sociale_ 
 Symfony permet de mettre en place des contraintes sur la valeur des champs pour les entités : Voir la [documentation](https://symfony.com/doc/current/reference/constraints/Regex.html#basic-usage)
 > Privilégiez l'usage des annotations PHP 
 ___
-
-> Sur ce point vous êtes tout à fait libre de créer un nouveau formulaire, rien que pour ces champs. Mais il vous faudra par la suite penser à rediriger l'utilisateur vers ce nouveau formulaire lors du processus de souscription.
 
 #### Nouvelle route pour souscrire à une offre
 
