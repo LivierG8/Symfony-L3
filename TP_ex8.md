@@ -116,7 +116,7 @@ Symfony permet de mettre en place des contraintes sur la valeur des champs pour 
 > Privilégiez l'usage des annotations PHP 
 ___
 
-#### Nouvelle route pour souscrire à une offre
+### Nouvelle route pour souscrire à une offre
 
 Dans la page publique qui affiche une offre (ou directement dans la liste des offres), ajouter un lien "Souscrire".
 
