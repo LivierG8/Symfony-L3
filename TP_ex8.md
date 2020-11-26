@@ -127,19 +127,19 @@ Ce lien doit appeler **une nouvelle route** qui prendra en paramètre l'`id` de 
 La nouvelle fonction (par exemple `subscribeToOffer`) liée à la nouvelle route (par exemple `subscribe_to_offer`) que vous allez créer dans `OfferController`, doit contrôler les points suivants : 
 * Est-ce que l'utilisateur est connecté ? 
     * Si l'utilisateur est connecté (`$this->getUser()` retourne un objet de type `User`)
-        * Est-ce que l'utilisateur a rempli les informations obligatoire pour souscrire à une offre ?
+        * Est-ce que l'utilisateur a rempli les informations obligatoires pour souscrire à une offre ?
             * Si oui
                 * Est-ce que l'utilisateur a déjà souscrit à cette offre ?
                     * Si oui
                         * Ajouter un message flash pour indiquer à l'utilisateur qu'il ne peut pas souscrire deux fois à la même offre
                         * Rediriger vers la page de l'espace utilisateur qui liste les souscriptions  
                     * Sinon
-                        * Créer une nouvelle souscription à partir de l'offre et du l'utilisateur
+                        * Créer une nouvelle souscription à partir de l'offre et de l'utilisateur
                         * Ajouter à l'utilisateur cette souscription
                         * Ajouter à l'offre cette souscription
                         * Sauvegarder en BDD l'utilisateur, la souscription et l'offre
             * Sinon
-                * Ajouter un message flash pour indiquer à l'utilisateur qu'il doit saisie les informations obligatoires
+                * Ajouter un message flash pour indiquer à l'utilisateur qu'il doit saisir les informations obligatoires
                 * Rediriger vers la page de l'espace utilisateur pour modifier les informations obligatoires
     * Sinon
         * Ajouter un message flash (`$this->addFlash`) pour indiquer à l'utilisateur qu'il doit être connecté pour souscrire à une offre
