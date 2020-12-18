@@ -5,7 +5,7 @@ Le projet est rendre sous forme d'un **dossier compressé** (`NOM_PRENOM.zip` ou
 Les dossiers/fichiers du projet à inclure dans le dossier compressé à rendre sont les suivants : 
 * `assets`
 * `config`
-* `public`
+* `public`  (**Sans le dossier uploads à l'intérieur**)
 * `src`
 * `templates`
 * `.env.local`
