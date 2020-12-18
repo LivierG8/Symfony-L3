@@ -57,7 +57,9 @@ Vous trouverez ci-dessous les points à remplir pour obtenir un maximum de point
         + Vérification des informations obligatoires (pour la souscription)
         + Messages flash en cas d'erreur
         + Redirection (vers la page de connexion ou vers l'espace client)
-
+* Édition des articles
+    * Pouvoir modifier l'image de chaque article
+    
 * Espace agent : 
     * Liste des souscriptions
     * Modifier le statut d'une souscription
@@ -69,3 +71,4 @@ Vous trouverez ci-dessous les points à remplir pour obtenir un maximum de point
     - _Inscription_ : Regex
     - _Administration_ : Afficher l'âge de chaque utilisateur dans la liste
     - Correction des bugs du lot 1
+    - _Images des articles_ : Utiliser un service [FileUploader](https://symfony.com/doc/current/controller/upload_file.html#creating-an-uploader-service)
